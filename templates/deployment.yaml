@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  ## relicaset lables
+  labels:
+    purpose: helm-dp-service
+    project: roboshop
+spec:
+  replicas: {{ .Values.deployment.replicas }}
+  selector:
+  ## these lables are used to select the pods
+    matchLabels:
+      purpose: helm-dp-service
+      project: roboshop
+  ## pod definition
+  template:
+    metadata:
+      labels:
+        purpose: helm-dp-service
+        project: roboshop
+    spec:
+      containers:
+      - name: nginx
+        image: {{ .Values.deployment.imageVersion }}
