@@ -1,0 +1,6 @@
+deployment:
+  imageid: rajmdevops/mongodb
+  version: v1
+service:
+ type: clusterip
+ port: 27017
