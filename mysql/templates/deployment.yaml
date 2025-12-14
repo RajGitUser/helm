@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: "{{ .Values.deployment.imageid}}:{{ .Values.deployment.version }}"
+        image: "{{ .Values.deployment.imageid }}:{{ .Values.deployment.version }}"
         imagePullPolicy: Always
         # readinessProbe:
         #   tcpSocket:
