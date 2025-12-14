@@ -1,0 +1,4 @@
+deployment:
+  imageid: redis:7.0
+service:
+  portnumber: 6379

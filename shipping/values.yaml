@@ -1,0 +1,3 @@
+deployment:
+  imageid: rajmdevops/shipping
+  version: v1

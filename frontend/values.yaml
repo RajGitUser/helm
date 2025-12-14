@@ -1,0 +1,5 @@
+deployment:
+  imageid: rajmdevops/frontend
+  version: v1
+service:
+  portnumb: 80

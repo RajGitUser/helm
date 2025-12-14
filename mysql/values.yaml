@@ -1,0 +1,5 @@
+Deployment:
+  imageid: rajmdevops/mysql
+  version: v1
+service:
+  portnumber: 3306

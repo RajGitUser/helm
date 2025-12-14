@@ -1,0 +1,6 @@
+configmap:
+  amqpuser: "roboshop"
+  amqppass: "roboshop123"
+deployment:
+  imageid: rajmdevops/payment
+  version: v1

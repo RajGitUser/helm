@@ -1,0 +1,6 @@
+deployment:
+  imageid: rabbitmq:3
+env:
+  rabbitmq:
+    user: roboshop
+    password: roboshop123
