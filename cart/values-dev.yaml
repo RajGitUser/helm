@@ -1,0 +1,3 @@
+deployment:
+  imageid: rajmdevops/cart
+  version: v1
